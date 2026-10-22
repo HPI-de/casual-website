@@ -1,6 +1,6 @@
 ---
-layout: ../layouts/Layout.astro
----
+
+## layout: ../layouts/Layout.astro
 
 # Bestellung
 
