@@ -1,0 +1,95 @@
+:root {
+ --fancy: #5d24b4;
+ --bg: white;
+ --box-bg: #fffbed;
+ --fg: black;
+}
+
+@media (prefers-color-scheme: dark) {
+ :root {
+  --bg: #222;
+  --box-bg: #26292d;
+  --fg: white;
+ }
+}
+
+html,
+body {
+ margin: 0;
+ padding: 0;
+ background-color: var(--bg);
+ color: var(--fg);
+ font-family: system-ui, sans-serif;
+}
+
+main ::selection {
+ background: var(--fancy);
+ color: white;
+}
+
+a {
+ color: var(--fg);
+}
+
+main {
+ position: relative;
+ width: 100%;
+ max-width: 40rem;
+ margin: auto;
+ margin-top: 6rem;
+ --padding: 16px;
+ line-height: 1.7;
+ font-size: 1rem;
+}
+
+main>* {
+ margin: 0 var(--padding);
+}
+
+@media (max-width: 750px) {
+ main {
+  margin-top: 1rem;
+ }
+}
+
+@media (max-width: 400px) {
+ main {
+  --padding: 8px;
+ }
+}
+
+h1 {
+ font-size: 2rem;
+ line-height: 1;
+ margin-top: 2rem;
+ margin-bottom: 0.5rem;
+}
+
+@media (max-width: 750px) {
+ h1 {
+  font-size: 2rem;
+ }
+}
+
+p {
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
+footer {
+ margin: 4rem var(--padding) 2rem var(--padding);
+ opacity: 0.5;
+ font-size: 0.5rem;
+}
+
+nav a {
+ color: var(--fancy);
+ margin-right: 1rem;
+ text-decoration: none;
+}
+
+nav a:hover {
+ background-color: var(--fancy);
+ color: white;
+ cursor: pointer;
+}
