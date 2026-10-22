@@ -8,6 +8,12 @@
 	"files": {
 		"ignoreUnknown": false
 	},
+	"html": {
+		"experimentalFullSupportEnabled": true,
+		"formatter": {
+			"enabled": true
+		}
+	},
 	"formatter": {
 		"enabled": true,
 		"indentStyle": "tab"

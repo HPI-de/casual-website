@@ -1,0 +1,42 @@
+---
+import "./style.css";
+---
+
+<!DOCTYPE html>
+<html lang="de">
+	<head prefix="og:http://ogp.me/ns#">
+		<title>Casual Coding</title>
+		<meta charset="utf-8">
+		<meta name="theme-color" content="#f97191">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cdefs%3E%3CclipPath id='c'%3E%3Ccircle cx='24' cy='24' r='24'/%3E%3C/clipPath%3E%3C/defs%3E%3Ccircle fill='white' cx='24' cy='24' r='24'/%3E%3Cpath fill='%23f97191' d='M8 15 L8 48 L40 48 L40 15 L24 33 z' clip-path='url(%23c)'/%3E%3C/svg%3E"> -->
+		<meta name="title" content="Casual Coding">
+		<meta name="description" content="The Casual Coding Club's website">
+		<link rel="canonical" href="https://casual-co.de">
+		<meta property="og:title" content="Casual Coding">
+		<meta property="og:description" content="The Casual Coding Club's website">
+		<meta property="og:url" content="https://casual-co.de">
+		<meta property="og:site" content="Casual Coding">
+		<meta property="og:site_name" content="Casual Coding">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:type" content="website">
+	</head>
+
+	<body>
+		<main>
+			<center>
+				<h1>Casual Coding Club</h1>
+				<nav>
+					<a href="/">info</a>
+					<a href="/projects">projects</a>
+					<a href="/people">people</a>
+					<a href="/bestellung">order food</a>
+				</nav>
+			</center>
+
+			<slot />
+		</main>
+	</body>
+	<style>
+	</style>
+</html>
