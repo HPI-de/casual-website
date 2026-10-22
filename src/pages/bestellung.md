@@ -1,6 +1,6 @@
 ---
-layout: ../layouts/Layout.astro
----
+
+## layout: ../layouts/Layout.astro
 
 # Bestellung
 
@@ -11,7 +11,6 @@ Wir diskutieren auf [Discord](https://casual-co.de/discord) oder in Person darü
 ## Wo
 
 Wir bestellen normalerweise bei einem der folgenden Orte (grob von häufig zu selten):
-
 - [Lo Spuntino](https://lo-spuntino.com/)
 - [Sushi Yana](https://www.sushi-yana.de/)
 - [Tele-Pizza](https://www.telepizza.de/potsdam_babelsberg)
