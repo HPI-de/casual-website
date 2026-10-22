@@ -1,3 +1,7 @@
+---
+import "./style.css"
+---
+
 <!DOCTYPE html>
 <html lang="de">
 <head prefix="og:http://ogp.me/ns#">
@@ -16,37 +20,24 @@
 <meta property="og:site_name" content="Casual Coding" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
-<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 <main>
+    <center>
+    <h1>Casual Coding Club</h1>
+    <nav>
+    <a href="/">info</a>
+    <a href="/projects">projects</a>
+    <a href="/people">people</a>
+    <a href="/bestellung">order food</a>
+    </nav>
+    </center>
 
-<center>
- <h1>Casual Coding Club</h1>
- <nav>
- <a href="/">info</a>
- <a href="/projects">projects</a>
- <a href="/people">people</a>
- <a href="/bestellung">order food</a>
- </nav>
-</center>
-
-<p>
-Hi! We are the Casual Coding Club of the <a href="https://hpi.de/">HPI</a>.
-We meet about every week on Thursday in the room H-E.7/8.
-Most people arrive at 16:00.
-</p>
-<p>
-We noticed that during our studies, personal projects often fall flat because of time.
-Our meetings are an opportunity to work on side projects.
-You are welcome to bring your own projects or be inspired by those of other people!
-There are snacks, drinks, and of course other people that can give feedback and help with problems.
-</p>
-<p>
-If you are interested, just drop by at one of our meetings or send a mail to <a href="mailto:klub-casual-coding-sprecher@hpi.de">klub-casual-coding-sprecher@hpi.de</a>.
-</p>
-
+    <slot/>
 </main>
 </body>
+<style>
+
+</style>
 </html>

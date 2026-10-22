@@ -10,6 +10,7 @@
 		--bg: #222;
 		--box-bg: #26292d;
 		--fg: white;
+		--fancy: lightblue;
 	}
 }
 
@@ -82,14 +83,14 @@ footer {
 	font-size: 0.5rem;
 }
 
-nav a {
+a {
 	color: var(--fancy);
+}
+
+nav a {
 	margin-right: 1rem;
-	text-decoration: none;
 }
 
 nav a:hover {
-	background-color: var(--fancy);
-	color: white;
 	cursor: pointer;
 }
