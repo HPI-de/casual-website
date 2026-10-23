@@ -18,6 +18,11 @@
 		"enabled": true,
 		"indentStyle": "tab"
 	},
+	"markdown": {
+		"parser": {
+			"frontmatter": true
+		}
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {
